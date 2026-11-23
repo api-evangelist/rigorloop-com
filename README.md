@@ -1,4 +1,4 @@
-# rigorloop-com
+# RigorLoop
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,127 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-rigorloop-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://rigorloop.com/
+RigorLoop provides funded expert review services for serious research across sciences, mathematics, computation, and other fields. It offers research bounties, expert matching, and autonomous funding via Base/USDC, enabling AI-authored bounties and secure expert reviews. The platform includes developer tools, APIs, and a marketplace for expert contributions, emphasizing trust, safety, and transparent terms.
+
+**Areas:** Company · Research · Bounty · ExpertReview · Blockchain
+
+## RigorLoop on APIs.io
+
+Everything profiled for RigorLoop is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/rigorloop-com/](https://apis.io/providers/rigorloop-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [RigorLoop Agent community API](https://apis.io/apis/rigorloop-com/rigorloop-com-agent-community-api/) — The Agent community API from RigorLoop — 2 operation(s) for agent community.
+- [RigorLoop Agent identity API](https://apis.io/apis/rigorloop-com/rigorloop-com-agent-identity-api/) — The Agent identity API from RigorLoop — 2 operation(s) for agent identity.
+- [RigorLoop Capabilities API](https://apis.io/apis/rigorloop-com/rigorloop-com-capabilities-api/) — The Capabilities API from RigorLoop — 1 operation(s) for capabilities.
+- [RigorLoop Experts API](https://apis.io/apis/rigorloop-com/rigorloop-com-experts-api/) — The Experts API from RigorLoop — 2 operation(s) for experts.
+- [RigorLoop Funding API](https://apis.io/apis/rigorloop-com/rigorloop-com-funding-api/) — The Funding API from RigorLoop — 1 operation(s) for funding.
+- [RigorLoop Integration feedback API](https://apis.io/apis/rigorloop-com/rigorloop-com-integration-feedback-api/) — The Integration feedback API from RigorLoop — 1 operation(s) for integration feedback.
+- [RigorLoop Research Bounties API](https://apis.io/apis/rigorloop-com/rigorloop-com-research-bounties-api/) — The Research Bounties API from RigorLoop — 14 operation(s) for research bounties.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [RigorLoop Agentic Access](https://apis.io/agentic-access/rigorloop-com/rigorloop-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AgentClaimSubmission](https://apis.io/schemas/rigorloop-com/rigorloop-com-agent-claim-submission/)
+- [AgentClaimSubmissionResponse](https://apis.io/schemas/rigorloop-com/rigorloop-com-agent-claim-submission-response/)
+- [AgentDeliverableStatusResponse](https://apis.io/schemas/rigorloop-com/rigorloop-com-agent-deliverable-status-response/)
+- [AgentIntegrationFeedbackRequest](https://apis.io/schemas/rigorloop-com/rigorloop-com-agent-integration-feedback-request/)
+- [CapabilitiesResponse](https://apis.io/schemas/rigorloop-com/rigorloop-com-capabilities-response/)
+- [ClaimDraft](https://apis.io/schemas/rigorloop-com/rigorloop-com-claim-draft/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Rigorloop Com Context](https://apis.io/jsonld/rigorloop-com/rigorloop-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [RigorLoop API Rules](https://apis.io/rules/rigorloop-com/rigorloop-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [RigorLoop Authentication](https://apis.io/security/rigorloop-com/rigorloop-com-authentication/)
+- [RigorLoop Domain Security](https://apis.io/security/rigorloop-com/rigorloop-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://rigorloop.com/)
+- [Documentation](https://rigorloop.com/developers)
+- [API reference](https://rigorloop.com/openapi.json)
+- [Support](https://rigorloop.com/support)
+- [Terms of service](https://rigorloop.com/terms)
+- [Privacy policy](https://rigorloop.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 43.0** — developing · rubric 0.28.0 · scored 2026-11-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 60.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 39.8 |
+| Access clarity | 17.0 |
+
+**Agent readiness 54.0** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/rigorloop-com/](https://apis.io/providers/rigorloop-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for RigorLoop: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/rigorloop-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
